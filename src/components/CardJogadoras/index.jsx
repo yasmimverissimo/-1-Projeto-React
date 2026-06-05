@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import * as S from './style'; 
 
-export const CardJogadoras = ({ Data }) => {
+export const CardJogadoras = ({ data }) => {
 
     const [mostrarDetalhes, setMostrarDetalhes] = useState(false);
 
